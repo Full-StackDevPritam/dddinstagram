@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Download Instagram Videos, Stories, Reels, Highlights, Photos </title>
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#472d4e">
+    <meta name="theme-color" content="#472d4e">
+</head>
+
+<body class="body-en">
+    <div id="app">
+        <header class="header">
+            <nav class="header__nav">
+                <span class="header__logo">
+                    <img src="/images/logo.svg" width="150" height="28" alt="Logo header">
+                </span>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div class="form-block">
+                    <div class="form-block__wrapper">
+                        <nav class="pageTunerWrapper">
+                            <ul class="pageTunerWrapper__items">
+                                <li class="pageTunerWrapper__item">
+                                    <a href="https://sssinstagram.com/video-downloader">
+                                        <img src="/images/video.svg" alt="Video-downloader" width="18" height="18">
+                                        <span>Video</span>
+                                    </a>
+                                </li>
+                                <li class="pageTunerWrapper__item">
+                                    <a href="https://sssinstagram.com/photo-downloader">
+                                        <img src="/images/photo.svg" alt="Photo-downloader" width="18" height="18">
+                                        <span>Photo</span>
+                                    </a>
+                                </li>
+                                <li class="pageTunerWrapper__item">
+                                    <a href="https://sssinstagram.com/reels-downloader">
+                                        <img src="/images/reels.svg" alt="Reels-downloader" width="18" height="18">
+                                        <span>Reels</span>
+                                    </a>
+                                </li>
+                                <li class="pageTunerWrapper__item">
+                                    <a href="https://sssinstagram.com/story-saver">
+                                        <img src="/images/story.svg" alt="Story-saver" width="18" height="18">
+                                        <span>Story</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <h1 id="form-h1">
+                            Instagram downloader </h1>
+                        <form class="form search-form" onsubmit="return false">
+                            <div class="form__block">
+                                <label for="input">
+                                    <input id="input" class="form__input" @input="handleInputChange"
+                                        @paste="handleInputPaste" type="text" v-model="query" type="text"
+                                        placeholder="Paste link here">
+                                </label>
+                                <div class="form__block-btn">
+                                    <button class="btn-paste" @click="handlePasteButtonClick" type="button">
+                                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.75 2.9625C4.75 2.505 4.90804 2.06624 5.18934 1.74274C5.47064 1.41924 5.85218 1.2375 6.25 1.2375H7.75C8.14782 1.2375 8.52936 1.41924 8.81066 1.74274C9.09196 2.06624 9.25 2.505 9.25 2.9625M4.75 2.9625H3.25C2.85218 2.9625 2.47064 3.14424 2.18934 3.46774C1.90804 3.79124 1.75 4.23 1.75 4.6875V15.0375C1.75 15.495 1.90804 15.9338 2.18934 16.2573C2.47064 16.5808 2.85218 16.7625 3.25 16.7625H10.75C11.1478 16.7625 11.5294 16.5808 11.8107 16.2573C12.092 15.9338 12.25 15.495 12.25 15.0375V4.6875C12.25 4.23 12.092 3.79124 11.8107 3.46774C11.5294 3.14424 11.1478 2.9625 10.75 2.9625H9.25H4.75ZM4.75 2.9625C4.75 3.41999 4.90804 3.85875 5.18934 4.18225C5.47064 4.50576 5.85218 4.6875 6.25 4.6875H7.75C8.14782 4.6875 8.52936 4.50576 8.81066 4.18225C9.09196 3.85875 9.25 3.41999 9.25 2.9625H4.75Z"
+                                                stroke="#383838" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        <span>Paste</span>
+                                    </button>
+                                    <button class="btn-clear" @click="handleClearButtonClick" style="display: none"
+                                        type="reset">
+                                        <svg height="14px" width="14px" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 320 512">
+                                            <path fill="#4a4a4a"
+                                                d="M207.6 256l107.72-107.72c6.23-6.23 6.23-16.34 0-22.58l-25.03-25.03c-6.23-6.23-16.34-6.23-22.58 0L160 208.4 52.28 100.68c-6.23-6.23-16.34-6.23-22.58 0L4.68 125.7c-6.23 6.23-6.23 16.34 0 22.58L112.4 256 4.68 363.72c-6.23 6.23-6.23 16.34 0 22.58l25.03 25.03c6.23 6.23 16.34 6.23 22.58 0L160 303.6l107.72 107.72c6.23 6.23 16.34 6.23 22.58 0l25.03-25.03c6.23-6.23 6.23-16.34 0-22.58L207.6 256z" />
+                                        </svg>
+                                        <span>Clear</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <button @click="handleSearchButtonClick" type="submit" :disabled="disabled"
+                                class="form__submit">
+                                Download
+                            </button>
+                        </form>
+                        <div class="search-result">
+                            <output-component v-if="data" :query-type="queryType" :data="data"
+                                :is-ig-avatar-page="isIgAvatarPage"
+                                @too-many-requests="handleTooManyRequests"></output-component>
+                            <loader-component :is-loading="isLoading" :query-type="queryType"></loader-component>
+                            <captcha-component v-if="isShowCaptcha" @success-submit="handleSuccessSubmitCaptcha"
+                                @hide="handleHideCaptcha"></captcha-component>
+                            <error-component v-if="isError" :message="errorMessage"></error-component>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="index-page">
+                <section class="download-instagram-videos-photos">
+                    <div class="content d-flex">
+                        <div>
+                            <h2>
+                                Download Instagram Videos & Photos
+                            </h2>
+                            <p class="description">
+                                With sssInstagram, you can download high-quality photos and videos without limits!
+                                Download Videos, Photos, Stories, Reels, and album posts with multiple mixed-media files
+                                with one-click
+                                simplicity.
+                                Our downloader ensures you get original images in their original sizes without resizing.
+                                Plus, our story saver feature ensures that your favorite stories don't get lost after 24
+                                hours.
+                                It's easy to download them for later viewing. We also have a carousel download feature
+                                that allows you to
+                                download up to 10 pictures and videos with a single click.
+                                Just copy and paste the link, and our downloader takes care of the rest.
+                                Get the best quality Instagram downloads with sssInstagram!
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img class="object-fit" src="/images/ilogo.png?v=2" width="324" height="324"
+                                alt="Instagram downloader">
+                        </div>
+                    </div>
+                </section>
+                <div class="howto-download-instagram">
+                    <div class="background-border">
+                        <div class="content d-flex">
+                            <h2 class="text-center">How to download from Instagram? </h2>
+                            <ul>
+                                <li class="howto-download-element">
+                                    <h3>1. Copy the URL</h3>
+                                    <p class="howto-download-text">Open the Instagram app or website, go to the photo,
+                                        video, reels, carousel or
+                                        IGTV you want to download. Copy the URL.</p>
+                                </li>
+                                <li class="howto-download-element">
+                                    <h3>2. Paste the link</h3>
+                                    <p class="howto-download-text">Return to the SSSInstagram website, paste the link
+                                        into the input field at
+                                        the top of the page and click the "Download" button to start downloading.</p>
+                                </li>
+                                <li class="howto-download-element">
+                                    <h3>3. Download</h3>
+                                    <p class="howto-download-text">Review the results and find the file you want to
+                                        download. Click the
+                                        "Download" button. Ready! The file is saved to your device.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-mobile-app">
+                    <div class="background-border">
+                        <div class="content d-flex">
+                            <div class="image-container d-flex">
+                                <img src="/images/mobile.svg" width="414" height="332" alt="Download with mobile app">
+                            </div>
+                            <div class="d-flex">
+                                <h3>Download with mobile app</h3>
+                                <p>Download any photos, videos, reels, IGTV in one click! Our app provides fast,
+                                    high-resolution downloads
+                                    without watermarks, making it an ideal choice for downloading Instagram content.</p>
+                                <button class="download-mobile-button">
+                                    <img src="/images/ic-download.svg" width="24" height="24" alt="Click download">
+                                    <span>Install now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="instagram-downloader-features">
+                    <div class="content">
+                        <h2 class="text-center">Instagram Downloader</h2>
+                        <div class="d-flex feature-group">
+                            <div class="d-flex flex-1">
+                                <div>
+                                    <img src="/images/downloader/video.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>Instagram Video Download</h3>
+                                    <div class="feature-text">
+                                        We have made it easy to download videos from Instagram.
+                                        All you have to do is insert the link and click the "Download" button.
+                                        Our Video Downloader for Instagram is a revolutionary service that will save
+                                        your favorite IG videos in
+                                        the best quality.
+                                        Our Video Downloader for Instagram is your perfect assistant for quick and easy
+                                        access to the content you
+                                        can't live without.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex-inversion flex-1">
+                                <div>
+                                    <img src="/images/downloader/photo.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>Instagram Photo Downloader</h3>
+                                    <div class="feature-text">
+                                        Swipe away all your worries about downloading Instagram photos with our
+                                        Instagram photo downloader!
+                                        With just one click away, you can get the highest image quality in the original
+                                        photo link, no need for
+                                        resizing.
+                                        Get the highest quality photos with no fuss - get the best photos with one
+                                        click!🖱️
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-1">
+                                <div>
+                                    <img src="/images/downloader/reels.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>Instagram Reels Download</h3>
+                                    <div class="feature-text">
+                                        Save your favorite Instagram Reels quickly and easily with our Reels Downloader.
+                                        Enjoy high-quality downloads at no cost, with no limits on the number of videos
+                                        you can save.
+                                        Simply copy the Reels URL, paste it into our downloader, and click download.
+                                        It's that simple! Experience fast, secure, and hassle-free downloads today and
+                                        enjoy your favorite Reels offline anytime, anywhere.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex-inversion flex-1">
+                                <div>
+                                    <img src="/images/downloader/carousel.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>Carousel download</h3>
+                                    <div class="feature-text">
+                                        👉🏻 Download Carousel posts from Instagram with ease!
+                                        The Carousel Downloader for Instagram is your go-to tool for downloading those
+                                        essential Instagram
+                                        Carousel posts.
+                                        Don't wait to save those must-have posts for offline use - this expert, online
+                                        downloader takes care of it
+                                        for you with ease.
+                                        🙌 Try it out today, and never worry about missing a carousel post again!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-1">
+                                <div>
+                                    <img src="/images/downloader/story.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>Story Saver</h3>
+                                    <div class="feature-text">
+                                        Don't miss out on your favorite Instagram stories ever again!
+                                        Our Instagram Story Downloader is the perfect solution to save, watch, and reuse
+                                        stories even after their
+                                        24 hours limit.
+                                        Download your favorite stories in just a few simple clicks - no app required!
+                                        Plus, no time and no limit restrictions!
+                                        Get ready to take control of your Instagram stories and make sure you never miss
+                                        another one with
+                                        sssInstagram!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex-inversion flex-1">
+                                <div>
+                                    <img src="/images/downloader/igtv.svg" width="230" height="230" loading="lazy"
+                                        alt="carousel">
+                                </div>
+                                <div class="feature-element">
+                                    <h3>IGTV download</h3>
+                                    <div class="feature-text">
+                                        Easily download IGTV videos with our fast and free IGTV Downloader. Save
+                                        high-quality videos by simply copying the IGTV video URL, pasting it into our
+                                        downloader, and clicking download.
+                                        Enjoy unlimited downloads without any hassle.
+                                        Our tool is secure and user-friendly, making it the perfect solution for offline
+                                        viewing of your favorite IGTV content anytime, anywhere. Try it now!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-sssinstagram">
+                    <div class="background-border">
+                        <div class="content">
+                            <h2 class="text-center">Why SSSInstagram?</h2>
+                            <div class="d-flex feature-group">
+                                <div class="d-flex flex-1">
+                                    <div>
+                                        <img src="/images/why/unlimited.svg" width="132" height="132" loading="lazy"
+                                            alt="carousel">
+                                    </div>
+                                    <div class="why-sssinstagram-element">
+                                        <h3>Unlimited download</h3>
+                                        <div class="why-sssinstagram-text">
+                                            Watch and download photos, videos, reels, IGTV, Highlihts in original
+                                            resolution and quality without
+                                            restrictions! Any number of videos and photos per day for you
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex-inversion flex-1">
+                                    <div>
+                                        <img src="/images/why/anonymous.svg" width="132" height="132" loading="lazy"
+                                            alt="carousel">
+                                    </div>
+                                    <div class="why-sssinstagram-element">
+                                        <h3>100% Anonymous</h3>
+                                        <div class="why-sssinstagram-text">
+                                            Stay completely anonymous when browsing and downloading from Instagram! Our
+                                            service allows you to do
+                                            this without taking into account your data from your personal Instagram
+                                            accounts.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-1">
+                                    <div>
+                                        <img src="/images/why/fast.svg" width="132" height="132" loading="lazy"
+                                            alt="carousel">
+                                    </div>
+                                    <div class="why-sssinstagram-element">
+                                        <h3>Fast, safe & completely free</h3>
+                                        <div class="why-sssinstagram-text">
+                                            SSSInstagram works in any web browser (Chrome, Firefox, Opera and others)
+                                            and on any devices (computer,
+                                            tablet and Android and iOS phones). Our service is fully automated and free.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq" itemscope="" itemtype="https://schema.org/FAQPage">
+                    <div class="content d-flex">
+                        <h2>FAQ</h2>
+                        <div class="faq-group">
+                            <div class="faq-element" itemscope="" itemprop="mainEntity"
+                                itemtype="https://schema.org/Question">
+                                <div class="background-border">
+                                    <div id="answer-1" class="faq-question">
+                                        <h3 itemprop="name">Is there a limit to how many Instagram photos and videos I
+                                            can download?</h3>
+                                        <img class="arrow-button" src="/images/arrow.svg" width="24" height="24"
+                                            alt="arrow">
+                                    </div>
+                                </div>
+                                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p itemprop="text" class="answer-1">Our service does not impose a strict limit on
+                                        the number of downloads.
+                                        However, we recommend using the tool responsibly and not overwhelming the server
+                                        with
+                                        excessive download requests to ensure a smooth experience for all users.</p>
+                                </div>
+                            </div>
+                            <div class="faq-element" itemscope="" itemprop="mainEntity"
+                                itemtype="https://schema.org/Question">
+                                <div class="background-border">
+                                    <div id="answer-2" class="faq-question">
+                                        <h3 itemprop="name">What is an Instagram video downloader?</h3>
+                                        <img class="arrow-button" src="/images/arrow.svg" width="24" height="24"
+                                            alt="arrow">
+                                    </div>
+                                </div>
+                                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p itemprop="text" class="answer-2">An Instagram video downloader is an online tool
+                                        that enables you to download photos, videos, and IGTV
+                                        videos from Instagram for future use. Snapinsta is regarded as the best tool for
+                                        downloading content from
+                                        Instagram.</p>
+                                </div>
+                            </div>
+                            <div class="faq-element" itemscope="" itemprop="mainEntity"
+                                itemtype="https://schema.org/Question">
+                                <div class="background-border">
+                                    <div id="answer-3" class="faq-question">
+                                        <h3 itemprop="name">Can I download Instagram Stories using this tool?</h3>
+                                        <img class="arrow-button" src="/images/arrow.svg" width="24" height="24"
+                                            alt="arrow">
+                                    </div>
+                                </div>
+                                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p itemprop="text" class="answer-3">Yes, our Instagram downloader allows you to
+                                        download Instagram Stories.
+                                        Simply enter the URL of the Story you wish to download, and our tool will
+                                        generate a downloadable link for you.</p>
+                                </div>
+                            </div>
+                            <div class="faq-element" itemscope="" itemprop="mainEntity"
+                                itemtype="https://schema.org/Question">
+                                <div class="background-border">
+                                    <div id="answer-4" class="faq-question">
+                                        <h3 itemprop="name">Do I need to install any software to use the Instagram
+                                            downloader?</h3>
+                                        <img class="arrow-button" src="/images/arrow.svg" width="24" height="24"
+                                            alt="arrow">
+                                    </div>
+                                </div>
+                                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p itemprop="text" class="answer-4">No, you do not need to install any software.
+                                        Our Instagram downloader works entirely online, allowing you to download photos
+                                        and videos directly from your web browser.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://sssinstagram.com/video-downloader" target="_self">Video Downloader</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/photo-downloader" target="_self">Photo Downloader</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/reels-downloader" target="_self">Reels Downloader</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/story-saver" target="_self">Story Downloader</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/highlights-downloader" target="_self">Highlights Downloader</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://sssinstagram.com/how-to-download-instagram-pictures" target="_self">How to download
+                        Instagram Photos</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/how-to-download-instagram-videos" target="_self">How to download
+                        Instagram Videos</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://sssinstagram.com/about" target="_self">About</a>
+                </li>
+                <li>
+                    <a href="https://sssinstagram.com/privacy" target="_self">Privacy Policy</a>
+                </li>
+            </ul>
+            <div class="logo-wrapper">
+                <span class="logo-wrapper-a">
+                    <img src="/images/logo.svg" width="150" height="28" alt="Logo footer">
+                </span>
+            </div>
+            <div class="years">
+                2018 - 2024
+            </div>
+        </nav>
+        <style>
+            @media only screen and (min-width: 310px) and (max-width: 602px) {
+
+                footer#footer {
+                    margin-bottom: 45px;
+                }
+            }
+        </style>
+    </footer>
+    <!--Google tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDHKH4GDQE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+
+        gtag("js", new Date())
+
+        gtag("config", "G-KDHKH4GDQE")
+    </script>
+    <!-- End Google Tag Manager -->
+    <script async src="/js/app.js?id=489b0bd3336680086df2ac141525bf4b"></script>
+
+</html>

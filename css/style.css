@@ -1,0 +1,2238 @@
+/*# sourceMappingURL=style.css.map */
+* {
+    box-sizing: border-box
+}
+
+main {
+    background: #fff
+}
+
+body {
+    color: #2a2a2a;
+    font-size: 1em;
+    margin: 0;
+    padding: 0
+}
+
+.home-menu,
+body {
+    min-width: 320px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #2a3d7f
+}
+
+.panel h1,
+.panel h2,
+.panel h3,
+.panel h4,
+.panel h5,
+.panel h6 {
+    text-transform: uppercase
+}
+
+.ribbon h1,
+.ribbon h2,
+.ribbon h3,
+.ribbon h4,
+.ribbon h5,
+.ribbon h6,
+.ribbon label {
+    border-left: 5px solid #fff;
+    color: #f2f2f2;
+    padding-left: .5em
+}
+
+.content-wrapper a {
+    color: #1c97e2
+}
+
+.content-wrapper a:hover {
+    color: #65bff7;
+    text-decoration: underline
+}
+
+footer a:hover {
+    text-decoration: none
+}
+
+.content-wrapper a:focus,
+.content-wrapper a:visited {
+    color: #626b70
+}
+
+.ribbon a:focus,
+.ribbon a:visited {
+    color: #f0ff3a
+}
+
+.content-wrapper .result_overlay a:focus,
+.content-wrapper .result_overlay a:visited {
+    color: #111
+}
+
+.content-wrapper .result_overlay a:hover {
+    color: #333
+}
+
+.pure-img-responsive {
+    height: auto;
+    max-width: 100%
+}
+
+ol li {
+    margin-bottom: 1em
+}
+
+a:focus {
+    text-decoration: underline
+}
+
+.l-box {
+    padding: 1em
+}
+
+.l-box-lrg {
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
+}
+
+.b-box,
+.l-box-lrg {
+    padding: 2em
+}
+
+.is-center {
+    text-align: center
+}
+
+.is-icon {
+    color: #000
+}
+
+.u-r {
+    float: right
+}
+
+.u-l {
+    float: left
+}
+
+.u-m-noleft {
+    margin-left: 0
+}
+
+.u-m-noright {
+    margin-right: 0
+}
+
+.u-nm {
+    margin: 0
+}
+
+.u-p-noleft {
+    padding-left: 0
+}
+
+.u-p-noright {
+    padding-right: 0
+}
+
+.u-m-bottom {
+    margin-bottom: .5em
+}
+
+.u-fw {
+    width: 100%
+}
+
+.u-bl {
+    display: block
+}
+
+.u-pls {
+    padding-left: 1.5em
+}
+
+.dl-button {
+    margin: .5em 0
+}
+
+.u-oh {
+    overflow: hidden
+}
+
+.u-smaller-text {
+    font-size: .8em;
+    line-height: 1.3em
+}
+
+.u-bigger-text {
+    font-size: 1.1em
+}
+
+.u-small-text {
+    font-size: .85em;
+    line-height: 1.4em
+}
+
+.u-mtop {
+    margin-top: 5em
+}
+
+.u-shadow--white {
+    box-shadow: 0 0 35px 10px hsla(0, 0%, 100%, .3)
+}
+
+.u-shadow--black {
+    box-shadow: 0 0 35px 10px rgba(0, 0, 0, .3)
+}
+
+pre {
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    margin: 0 0 .5em;
+    overflow: auto;
+    padding: 1em;
+    word-break: break-all
+}
+
+.u-round {
+    border-radius: 50%
+}
+
+.ribbon hr {
+    border: 1px dashed #fff;
+    margin-bottom: 2em
+}
+
+.adcontainer_big {
+    margin-top: 2em
+}
+
+.text-color--main {
+    color: #0844a4
+}
+
+.highlights {
+    margin: 0 auto 1em;
+    max-width: 960px;
+    width: 90%
+}
+
+.highlights pre {
+    background: #e7e7e7;
+    border: 0;
+    font-size: .8em;
+    margin-top: 1em
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd
+}
+
+.l-box.pure-u-1 {
+    word-wrap: break-word
+}
+
+.result {
+    background: #fff;
+    padding: 2em
+}
+
+.htmx-indicator {
+    display: none
+}
+
+.htmx-request .htmx-indicator,
+.htmx-request.htmx-indicator {
+    display: inline
+}
+
+#main_page_text {
+    height: 100%
+}
+
+.pure-button,
+a.pure-button,
+button.pure-button {
+    background-color: #f2d11d;
+    color: #000;
+    padding: 1em 1.5em
+}
+
+.pure-button-secondary,
+a.pure-button-secondary,
+button.pure-button-secondary {
+    background-color: #a91fad
+}
+
+.home-menu {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 0;
+    text-align: center
+}
+
+.sss {
+    background: #fff;
+    color: #000;
+    position: relative
+}
+
+.sss,
+.sss:before {
+    padding: 5px 20px 5px 10px
+}
+
+.sss:before {
+    background: #f09433;
+    background: linear-gradient(90deg, #ec8437, #bf1a83 30%);
+    -webkit-clip-path: polygon(0 0, 29% 10%, 25% 93%, 5% 100%);
+    clip-path: polygon(0 0, 29% 10%, 25% 93%, 5% 100%);
+    color: #f800e9;
+    content: attr(data-text);
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0
+}
+
+.home-menu a {
+    color: #242da9
+}
+
+.processed {
+    padding-top: 2em
+}
+
+.processed .hide-after-request {
+    display: none
+}
+
+.content-wrapper {
+    background: #fff
+}
+
+.content {
+    padding: 0
+}
+
+.pure-g .content {
+    padding: .5em
+}
+
+.content-head {
+    line-height: 1.2em
+}
+
+.content-head-ribbon {
+    color: #fff
+}
+
+.content-subhead {
+    color: #1f8dd6
+}
+
+.content-subhead i {
+    margin-right: 7px
+}
+
+.ribbon {
+    background: #f09433;
+    background: linear-gradient(0deg, #f09433, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888);
+    color: #fff
+}
+
+.footer {
+    background: #111;
+    bottom: 0;
+    width: 100%
+}
+
+.panel {
+    background: #fff;
+    line-height: 1.2em;
+    padding: 1em;
+    text-align: initial
+}
+
+.tab input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1
+}
+
+.tabs {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .5)
+}
+
+.tab,
+.tabs {
+    overflow: hidden
+}
+
+.tab {
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    width: 100%
+}
+
+.tab:last-child {
+    border-bottom: 0
+}
+
+.tab-label {
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 1em
+}
+
+.tab-label:hover {
+    background: #ddd
+}
+
+.tab-label:after {
+    content: "\276F";
+    height: 1em;
+    text-align: center;
+    transition: all .35s;
+    width: 1em
+}
+
+.tab-content {
+    background: #fff;
+    color: #000;
+    max-height: 0;
+    padding: 0 1em;
+    transition: all .35s
+}
+
+.tab-content p {
+    margin-top: 0
+}
+
+.tab-close {
+    background: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em
+}
+
+.tab-close:hover {
+    background: #003dd5
+}
+
+input:checked+.tab-label {
+    background: #003dd5;
+    color: #fff
+}
+
+input:checked+.tab-label:after {
+    transform: rotate(90deg)
+}
+
+input:checked~.tab-content {
+    max-height: 100vh;
+    padding: 1em
+}
+
+#mainpicture {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative
+}
+
+.result_overlay {
+    background: hsla(0, 0%, 100%, .85);
+    padding: 1em;
+    position: relative
+}
+
+.maintext {
+    font-size: .8em;
+    font-weight: 700;
+    max-height: 4.5em;
+    min-height: 3em;
+    overflow: hidden
+}
+
+#bottomMenu {
+    background: #111;
+    position: absolute;
+    right: 0
+}
+
+#bottomMenu:hover ul li:hover ul {
+    background: #111;
+    bottom: 100%;
+    position: absolute
+}
+
+#twt_promo {
+    font-size: .8em;
+    margin: 0;
+    padding: .9em;
+    position: absolute;
+    right: 0
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #1f8dd6
+}
+
+.warning .svg-icon path,
+.warning .svg-icon polygon,
+.warning .svg-icon rect {
+    fill: #df3020
+}
+
+.svg-icon circle {
+    stroke: #1f8dd6;
+    stroke-width: 1
+}
+
+.warning .svg-icon circle {
+    stroke: #df3020;
+    stroke-width: 1
+}
+
+.is-icon {
+    position: relative
+}
+
+.bigicon {
+    margin-top: 2em
+}
+
+.bigicon,
+.mediumicon {
+    display: block;
+    height: 5em;
+    width: 5em
+}
+
+.mediumicon {
+    margin-top: 1em
+}
+
+.svg-icon {
+    height: 2em;
+    left: 50%;
+    margin: -1em 0 0 -1em;
+    position: absolute;
+    top: 50%;
+    width: 2em
+}
+
+.svg-icon--big {
+    height: 4em;
+    margin: -2em 0 0 -2em;
+    width: 4em
+}
+
+.button-success,
+a.button-success {
+    background: #1cb841
+}
+
+.button-rounded {
+    border-radius: 6px
+}
+
+.app_section a.pure-button {
+    display: none;
+    margin: 0 auto;
+    max-width: 450px
+}
+
+.red-text {
+    color: #ca1f10
+}
+
+.sosial-buttons ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.share-buttons li+li {
+    margin-left: 7px
+}
+
+.share-buttons li {
+    float: left;
+    list-style-type: none
+}
+
+.gallery_tile {
+    background: #edecec;
+    border: 2px solid #fff;
+    padding: .5em
+}
+
+a.gallery_download {
+    background: rgba(72, 157, 208, .8);
+    position: relative
+}
+
+@media (min-width:48em) {
+    body {
+        font-size: 18px
+    }
+
+    .l-box-lrg {
+        border: none
+    }
+}
+
+@media (min-width:78em) {
+    body {
+        font-size: 16px
+    }
+
+    .highlights {
+        width: 75%
+    }
+
+    .highlights .u-smaller-text {
+        font-size: 1.1em
+    }
+}
+
+@media (max-width:48em) {
+    .img-responsive {
+        max-width: 100%;
+        width: 100%
+    }
+
+    .processed {
+        padding: 0
+    }
+
+    .result_overlay img.u-round {
+        width: 75px
+    }
+
+    #menuToggle input:checked~div {
+        transform: none
+    }
+
+    #menuToggle label {
+        display: none
+    }
+
+    .u-pls {
+        font-size: .9em
+    }
+
+    .footer {
+        font-size: 1.2em
+    }
+
+    .highlights .responsive .content {
+        padding: .5em
+    }
+
+    .highlights {
+        width: 100%
+    }
+}
+
+@media (max-width:28em) {
+    .u-pls {
+        font-size: .8em
+    }
+
+    .section.about a {
+        font-size: .9em
+    }
+}
+
+@media (max-width:350px) {
+    #twt_promo a {
+        display: table-caption;
+        white-space: break-spaces
+    }
+
+    #twt_promo a b {
+        display: none
+    }
+
+    #twt_promo {
+        padding: .3em
+    }
+}
+
+html {
+    line-height: 1
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    overflow-x: hidden
+}
+
+.btn-clear,
+.btn-paste {
+    border-radius: 4px !important;
+    padding: 6px !important;
+    position: relative
+}
+
+.btn-clear span,
+.btn-clear svg,
+.btn-paste span,
+.btn-paste svg {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: 2
+}
+
+.btn-clear:after,
+.btn-paste:after {
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#e4e4e4, #e4e4e4), linear-gradient(269deg, #02c2fe, #db00ff 93.98%);
+    background-origin: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: 1
+}
+
+#response {
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%
+}
+
+.graph-sidecar-wrapper {
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px
+}
+
+.graph-image,
+.graph-video {
+    align-items: center;
+    background: #fff;
+    border-radius: 3px;
+    flex-direction: column;
+    padding: 7px;
+    text-align: center
+}
+
+.preview {
+    max-width: 100% !important
+}
+
+.download-wrapper {
+    border-top: 0;
+    padding-top: 5px;
+    width: 100%
+}
+
+.download-wrapper a {
+    background: #129fea;
+    border-bottom: 4px solid #1f8dd6;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none
+}
+
+.download-wrapper a:last-child {
+    margin-bottom: 0
+}
+
+.relative {
+    position: relative
+}
+
+.text-center {
+    text-align: center
+}
+
+.d-flex,
+.d-flex-inversion {
+    display: flex
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.object-fit {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.background-border,
+.content {
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: start;
+    width: 80%
+}
+
+.download-instagram-videos-photos {
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+
+.download-instagram-videos-photos h2 {
+    align-items: center;
+    color: #2a3d7f;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px
+}
+
+.download-instagram-videos-photos .d-flex,
+.download-instagram-videos-photos .d-flex-inversion {
+    gap: 42px
+}
+
+.description,
+.download-mobile-app-text,
+.feature-text,
+.howto-download-text,
+.why-sssinstagram-text {
+    color: #383838;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: .8;
+    text-align: start
+}
+
+#instagram-downloader-features h2,
+.why-sssinstagram h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px
+}
+
+#instagram-downloader-features h3,
+.why-sssinstagram h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0
+}
+
+#instagram-downloader-features .feature-group,
+.why-sssinstagram .feature-group {
+    flex-direction: column;
+    gap: 42px;
+    margin: 0 auto
+}
+
+#instagram-downloader-features .d-flex-inversion,
+.why-sssinstagram .d-flex-inversion {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px
+}
+
+#instagram-downloader-features .d-flex,
+.why-sssinstagram .d-flex {
+    gap: 32px
+}
+
+#instagram-downloader-features .feature-element,
+.why-sssinstagram .feature-element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center
+}
+
+#instagram-downloader-features .feature-element .d-flex,
+.why-sssinstagram .feature-element .d-flex {
+    gap: 32px
+}
+
+#instagram-downloader-features .feature-element:last-child,
+.why-sssinstagram .feature-element:last-child {
+    margin-bottom: 0
+}
+
+#instagram-downloader-features .icon,
+.why-sssinstagram .icon {
+    height: 230px;
+    width: 230px
+}
+
+.why-sssinstagram h2 {
+    margin-top: 0
+}
+
+.why-sssinstagram .background-border {
+    margin: 70px auto 0
+}
+
+.why-sssinstagram .why-sssinstagram-element {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    list-style: none
+}
+
+.why-sssinstagram .why-sssinstagram-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center
+}
+
+.why-sssinstagram .content {
+    padding: 60px 100px;
+    width: 100%
+}
+
+.why-sssinstagram .background-border {
+    background-image: linear-gradient(#fff, #fff), linear-gradient(269deg, #02c2fe, #db00ff 93.98%)
+}
+
+.download-mobile-app {
+    margin-bottom: 70px;
+    margin-top: 100px
+}
+
+.download-mobile-app .background-border {
+    background-image: linear-gradient(#fff, #fff), linear-gradient(269deg, #02c2fe, #db00ff 93.98%)
+}
+
+.download-mobile-app .content {
+    display: flex;
+    gap: 20px;
+    padding: 0 10px 0 0;
+    width: 100%
+}
+
+.download-mobile-app .content .d-flex {
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 432px;
+    padding: 30px 0
+}
+
+.download-mobile-app h3 {
+    color: #383838;
+    font-family: Segoe UI, Roboto, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0
+}
+
+.download-mobile-app p {
+    margin: 0;
+    padding-bottom: 18px
+}
+
+.download-mobile-app .image-container {
+    min-width: 414px;
+    position: relative
+}
+
+.download-mobile-app .image-container img {
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+
+.download-mobile-app .download-mobile-button {
+    align-items: center;
+    background: #fb015b;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    max-width: 258px;
+    outline: none;
+    padding: 12px 60px
+}
+
+.download-mobile-app .download-mobile-button span {
+    color: #fff;
+    font-family: Segoe UI, Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center
+}
+
+.faq {
+    margin: 70px 0
+}
+
+.faq .content.d-flex {
+    align-items: center;
+    flex-direction: column;
+    gap: 32px
+}
+
+.faq h2,
+.faq h3,
+.faq p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    margin: 0
+}
+
+.faq h2 {
+    color: #141414;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 46px;
+    text-align: center
+}
+
+.faq h3,
+.faq p {
+    color: #383838;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px
+}
+
+.faq p {
+    align-items: center;
+    align-self: stretch;
+    display: none;
+    font-weight: 400;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 16px
+}
+
+.faq .faq-answer_active {
+    display: flex;
+    transition: .4s ease
+}
+
+.faq .faq-group {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 818px;
+    width: 100%
+}
+
+.faq .faq-question {
+    cursor: pointer;
+    display: flex;
+    gap: 24px;
+    padding: 14px 16px
+}
+
+.faq .faq-question h3 {
+    flex: 1
+}
+
+.faq .faq-element {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 hsla(0, 0%, 60%, .3)
+}
+
+.faq .faq-element .background-border {
+    background-image: linear-gradient(#fff, #fff), linear-gradient(269deg, #02c2fe, #db00ff 93.98%);
+    border-radius: 4px;
+    width: 100%
+}
+
+.arrow-button {
+    height: 24px;
+    transform: rotateX(180deg);
+    width: 24px
+}
+
+.arrow-button_rotate {
+    transform: rotateX(0deg)
+}
+
+.background-border {
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 hsla(0, 0%, 60%, .3)
+}
+
+.sss-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.howto-download-instagram {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    padding: 30px 0
+}
+
+.howto-download-instagram .background-border {
+    background-image: linear-gradient(#5940f1, #5940f1), linear-gradient(269deg, #02c2fe, #db00ff 93.98%)
+}
+
+.howto-download-instagram .d-flex {
+    flex-direction: column
+}
+
+.howto-download-instagram .d-flex-inversion {
+    flex-direction: column-reverse
+}
+
+.howto-download-instagram .content {
+    padding: 60px 100px;
+    width: 100%
+}
+
+.howto-download-instagram h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 46px;
+    margin-top: 0
+}
+
+.howto-download-instagram h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0;
+    text-align: start
+}
+
+.howto-download-instagram ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0;
+    width: 100%
+}
+
+.howto-download-instagram .howto-download-element {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    list-style: none
+}
+
+.howto-download-instagram .howto-download-text {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 778px;
+    opacity: .8;
+    width: 100%
+}
+
+#download-online {
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+#download-online h2 {
+    align-items: center;
+    display: flex;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 60px;
+    text-align: center
+}
+
+#download-online h2,
+#download-online p {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300
+}
+
+#download-online p {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 20px
+}
+
+#download-online h3 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px
+}
+
+#download-online .padding-right {
+    padding-right: 150px
+}
+
+footer {
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid #ececef;
+    flex-direction: column;
+    padding-top: 30px
+}
+
+footer,
+footer nav ul {
+    display: flex;
+    justify-content: center
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding-left: 0
+}
+
+footer nav ul li {
+    margin: 0 20px
+}
+
+footer nav ul li:last-child {
+    margin-right: 0
+}
+
+footer nav ul li a {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+footer nav ul li:hover {
+    text-decoration: underline
+}
+
+footer .years {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 15px
+}
+
+.logo-wrapper,
+footer .years {
+    display: flex;
+    justify-content: center
+}
+
+.logo-wrapper {
+    align-items: center;
+    position: relative
+}
+
+@media (max-width:400px) {
+    .logo-wrapper__header {
+        justify-content: start;
+        padding-left: 20px
+    }
+}
+
+.logo-wrapper-a {
+    align-items: center;
+    color: #a130b4 !important;
+    display: flex;
+    font-family: Archivo, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative
+}
+
+.logo-wrapper-a,
+.logo-wrapper-a:focus {
+    text-decoration: none
+}
+
+.logo-wrapper-a .logo {
+    margin-top: -2px
+}
+
+.logo-wrapper-a .sss-img {
+    left: 15px;
+    position: absolute;
+    top: 20px;
+    z-index: 9999
+}
+
+@media screen and (max-width:576px) {
+    .graph-sidecar-wrapper {
+        grid-template-columns: repeat(1, 1fr) !important
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .d-flex,
+    .d-flex-inversion {
+        gap: 20px
+    }
+
+    .background-border {
+        margin: 50px auto 0
+    }
+
+    .faq .background-border {
+        margin: 0 auto
+    }
+
+    footer ul {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+
+    footer ul li {
+        margin-bottom: 20px;
+        margin-right: 0 !important
+    }
+}
+
+@media screen and (max-width:992px) {
+    #index-page h1 {
+        font-size: 22px;
+        text-align: center
+    }
+
+    #index-page h2 {
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center
+    }
+
+    #index-page .content {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 90%
+    }
+
+    #index-page .content .faq-element p {
+        text-align: start
+    }
+
+    #index-page .content .faq-element h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px
+    }
+
+    #index-page .d-flex-inversion {
+        flex-direction: column-reverse
+    }
+
+    #index-page #instagram-downloader-features h2 {
+        margin-bottom: 50px;
+        margin-top: 50px
+    }
+
+    #index-page #instagram-downloader-features h2 .icon {
+        margin-right: 0
+    }
+
+    #index-page #instagram-downloader-features .d-flex,
+    #index-page #instagram-downloader-features .d-flex-inversion {
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center
+    }
+
+    #index-page .howto-download-instagram .content,
+    #index-page .why-sssinstagram .content {
+        margin: 0;
+        padding: 30px;
+        width: 100%
+    }
+
+    #index-page .howto-download-instagram .content .why-sssinstagram-element,
+    #index-page .why-sssinstagram .content .why-sssinstagram-element {
+        gap: 10px
+    }
+
+    #index-page .howto-download-instagram h2,
+    #index-page .why-sssinstagram h2 {
+        margin-bottom: 50px;
+        margin-top: 50px
+    }
+
+    #index-page .howto-download-instagram h2 .icon,
+    #index-page .why-sssinstagram h2 .icon {
+        margin-right: 0
+    }
+
+    #index-page .howto-download-instagram .d-flex,
+    #index-page .howto-download-instagram .d-flex-inversion,
+    #index-page .why-sssinstagram .d-flex,
+    #index-page .why-sssinstagram .d-flex-inversion {
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center
+    }
+
+    #index-page .howto-download-instagram .why-sssinstagram-text,
+    #index-page .why-sssinstagram .why-sssinstagram-text {
+        text-align: start
+    }
+
+    #index-page .howto-download-instagram .why-sssinstagram-group,
+    #index-page .why-sssinstagram .why-sssinstagram-group {
+        gap: 24px
+    }
+
+    #index-page .howto-download-instagram h2,
+    #index-page .howto-download-instagram h3,
+    #index-page .why-sssinstagram h2,
+    #index-page .why-sssinstagram h3 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+        margin-top: 0
+    }
+
+    #index-page .download-mobile-app {
+        margin-bottom: 50px;
+        margin-top: 50px
+    }
+
+    #index-page .download-mobile-app .content {
+        flex-direction: column-reverse;
+        padding: 0
+    }
+
+    #index-page .download-mobile-app .content .d-flex {
+        max-width: 100%
+    }
+
+    #index-page .download-mobile-app .image-container {
+        height: auto;
+        min-width: 100%
+    }
+
+    #index-page .download-mobile-app .image-container img {
+        height: 100%;
+        position: relative;
+        width: 100%
+    }
+
+    #index-page .download-mobile-app .image-container.d-flex {
+        padding: 0
+    }
+
+    #index-page .download-mobile-app .download-mobile-button {
+        max-width: 100%;
+        padding: 12px 40px
+    }
+
+    #index-page .download-mobile-app .download-mobile-app-text {
+        text-align: start
+    }
+
+    #index-page .howto-download-instagram .howto-download-element {
+        gap: 10px
+    }
+
+    #index-page #download-online {
+        padding-bottom: 30px;
+        padding-top: 30px
+    }
+
+    #index-page #download-online h2 {
+        justify-content: center;
+        margin-bottom: 30px
+    }
+
+    #index-page #download-online .d-flex {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    #index-page #download-online .padding-right {
+        padding-right: 0
+    }
+
+    #index-page #download-online p {
+        font-size: 18px
+    }
+
+    #index-page #download-online h3 {
+        font-size: 22px
+    }
+
+    #language-switcher {
+        padding-top: 11px
+    }
+
+    .description {
+        font-size: 18px
+    }
+
+    .logo-wrapper-a img {
+        max-width: 100% !important
+    }
+}
+
+.sss-form-wrapper {
+    max-width: 1200px
+}
+
+@media screen and (max-width:576px) {
+    .sss-form-wrapper {
+        max-width: 400px
+    }
+
+    #index-page #instagram-downloader-features h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0
+    }
+
+    #index-page #instagram-downloader-features h2 .feature-text {
+        margin-top: 0
+    }
+
+    #index-page #instagram-downloader-features .d-flex,
+    #index-page #instagram-downloader-features .d-flex-inversion {
+        gap: 0
+    }
+
+    #index-page #instagram-downloader-features .feature-element,
+    #index-page #instagram-downloader-features .feature-group {
+        gap: 10px
+    }
+
+    #index-page .howto-download-instagram .content,
+    #index-page .why-sssinstagram .content {
+        padding: 30px 18px
+    }
+
+    #index-page .howto-download-instagram h2,
+    #index-page .why-sssinstagram h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0
+    }
+
+    #index-page .howto-download-instagram .why-sssinstagram-text,
+    #index-page .why-sssinstagram .why-sssinstagram-text {
+        margin-top: 0
+    }
+
+    #index-page .howto-download-instagram .why-sssinstagram-group,
+    #index-page .why-sssinstagram .why-sssinstagram-group {
+        gap: 24px
+    }
+
+    #index-page .howto-download-instagram .d-flex,
+    #index-page .howto-download-instagram .d-flex-inversion,
+    #index-page .why-sssinstagram .d-flex,
+    #index-page .why-sssinstagram .d-flex-inversion {
+        gap: 0
+    }
+
+    #index-page .howto-download-instagram .why-sssinstagram-element,
+    #index-page .why-sssinstagram .why-sssinstagram-element {
+        gap: 10px
+    }
+}
+
+#add-after-response {
+    margin: 10px auto
+}
+
+.highlights .pure-u-1 {
+    padding: 0 5px
+}
+
+.content h1,
+.highlights .pure-u-1 h4 {
+    text-align: center
+}
+
+.content h1 {
+    color: #2a3d7f;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px
+}
+
+.content.static-page {
+    max-width: 1100px;
+    padding-bottom: 30px;
+    padding-top: 50px
+}
+
+.content.static-page h2 {
+    font-size: 32px;
+    line-height: 32px
+}
+
+.content.static-page h2,
+.content.static-page strong {
+    color: #2a3d7f;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500
+}
+
+.static-page {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px
+}
+
+.static-page li {
+    margin-bottom: 30px
+}
+
+.static-page li:last-child {
+    margin-bottom: 0
+}
+
+.static-page img {
+    min-width: 450px
+}
+
+.block-item {
+    border-bottom: 1px solid #ececef;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px
+}
+
+.block-item h2 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300
+}
+
+.block-item:last-child {
+    border-bottom: 0
+}
+
+.block-item .left {
+    margin-right: 40px
+}
+
+.how-to {
+    margin-bottom: 40px
+}
+
+.how-to h2 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center
+}
+
+.body-ar #instagram-downloader-features .icon,
+.body-ar .block-item .left,
+.body-ar .why-sssinstagram .icon,
+.body-fa #instagram-downloader-features .icon,
+.body-fa .block-item .left,
+.body-fa .why-sssinstagram .icon {
+    margin-left: 50px;
+    margin-right: 0
+}
+
+.private-link .pure-g {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.modal__title {
+    box-sizing: border-box;
+    color: #00449e;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.modal__close {
+    background: transparent;
+    border: 0
+}
+
+.modal {
+    align-items: center;
+    background: hsla(0, 0%, 100%, .7);
+    display: flex;
+    height: 100vh;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 50
+}
+
+@media screen and (min-width:768px) {
+    .modal {
+        justify-content: center
+    }
+}
+
+.modal__overlay {
+    align-items: center;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    position: fixed;
+    z-index: 40
+}
+
+.modal__btn {
+    -webkit-appearance: button;
+    background: #3a3c37 !important;
+    border-radius: 0 !important;
+    border-style: none;
+    border-width: 0;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: .875rem;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    padding: 1em;
+    text-transform: none;
+    width: 100%;
+    will-change: transform
+}
+
+.modal__container {
+    background-color: #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 80%;
+    overflow-y: auto;
+    padding: 0 !important;
+    position: relative
+}
+
+.modal__content {
+    color: rgba(0, 0, 0, .8);
+    line-height: 1.5;
+    margin: 0 auto;
+    position: relative;
+    text-align: center
+}
+
+.modal__footer {
+    border-top: none;
+    padding-top: 0
+}
+
+.is-private {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .75);
+    margin-top: 100px;
+    max-width: 250px
+}
+
+.is-private .is-private-name {
+    color: #383838;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-top: 0
+}
+
+.is-private img {
+    border-radius: 100%;
+    margin-top: -60px;
+    max-width: 100%;
+    width: 150px
+}
+
+.is-private .activity-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+
+.is-private .activity-wrapper b {
+    color: #383838;
+    font-size: 14px;
+    font-weight: 800
+}
+
+.is-private .activity-wrapper span {
+    color: #cbcbcb;
+    font-size: 14px
+}
+
+.is-private .activity-wrapper .middle-div {
+    margin-left: 24px;
+    margin-right: 25px
+}
+
+.is-private .button-wrapper {
+    border-top: 1px solid #dedede;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.is-private .button-wrapper button {
+    background: #f8c8c8;
+    border: 0;
+    border-left: 3px solid #fa8a8a;
+    color: #383838;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px;
+    width: 221px
+}
+
+.adsBlock {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 820px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .adsBlock {
+        margin-left: 1em;
+        margin-right: 1em
+    }
+}
+
+@media screen and (min-width:768px) {
+    .adsBlock {
+        min-height: 280px
+    }
+}
+
+.lang-menu {
+    display: grid;
+    gap: .5rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    padding: 10px 20px !important
+}
+
+.lang-menu a {
+    text-decoration: none
+}
+
+.form-block {
+    background: linear-gradient(269deg, #02c2fe, #db00ff 93.98%);
+    margin: 0 auto;
+    padding: 42px 20px
+}
+
+@media (max-width:768px) {
+    .form-block {
+        padding: 20px
+    }
+}
+
+.form-block__wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%
+}
+
+.form-block h1 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 46px;
+    margin: 34px auto;
+    text-align: center
+}
+
+@media (max-width:768px) {
+    .form-block h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 20px auto
+    }
+}
+
+.form {
+    display: grid;
+    font-family: Roboto, sans-serif;
+    grid-template-columns: 1fr max-content;
+    margin: 34px auto 0;
+    max-width: 660px;
+    padding: 0 12px;
+    width: 100%
+}
+
+@media (max-width:768px) {
+    .form {
+        gap: 4px;
+        grid-template-columns: 1fr;
+        margin: 20px auto 0
+    }
+}
+
+.form__block {
+    align-items: center;
+    background: #fff;
+    border: .889px solid #b50000;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 3.556px 3.556px 0 rgba(0, 0, 0, .25);
+    display: grid;
+    gap: 6px;
+    grid-template-columns: 1fr max-content;
+    padding: 9px 16px 9px 10px
+}
+
+@media (max-width:768px) {
+    .form__block {
+        border-radius: 4px;
+        padding: 4px 4px 4px 10px
+    }
+}
+
+.form__block label {
+    height: 100%
+}
+
+.form__block input {
+    border: none;
+    color: #636161;
+    font-size: 14px;
+    font-weight: 300;
+    height: 100%;
+    line-height: normal;
+    width: 100%
+}
+
+.form__block-btn button {
+    align-items: center;
+    background: #ccc;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    gap: 3px;
+    margin: 0;
+    padding: 5px
+}
+
+@media (max-width:768px) {
+    .form__block-btn button {
+        gap: 5px;
+        padding: 5px 8px 5px 6px
+    }
+}
+
+.form__block-btn button span {
+    color: #383838;
+    font-size: 12.444px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center
+}
+
+@media (max-width:768px) {
+    .form__block-btn button span {
+        line-height: 26px
+    }
+}
+
+.form__submit {
+    background: linear-gradient(180deg, #fb015b, #d2024d);
+    border: .889px solid #b50000;
+    border-radius: 0 3.556px 3.556px 0;
+    box-shadow: 0 3.556px 3.556px 0 rgba(0, 0, 0, .25);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 14px 30px;
+    text-align: center;
+    text-shadow: 0 .889px .889px rgba(0, 0, 0, .25);
+    text-transform: uppercase
+}
+
+@media (max-width:768px) {
+    .form__submit {
+        border-radius: 4px
+    }
+}
+
+.pageTunerWrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+@media (max-width:768px) {
+    .pageTunerWrapper {
+        width: 100%
+    }
+}
+
+.pageTunerWrapper__items {
+    background: hsla(0, 0%, 100%, .24);
+    border-radius: 6px;
+    display: flex;
+    padding: 0
+}
+
+@media (max-width:768px) {
+    .pageTunerWrapper__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        width: 100%
+    }
+}
+
+.pageTunerWrapper__item {
+    list-style: none;
+    padding: 5px 10px
+}
+
+.pageTunerWrapper__item a {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    padding: 6px 22px;
+    text-decoration: none;
+    transition: all .7s ease
+}
+
+@media (max-width:768px) {
+    .pageTunerWrapper__item a {
+        justify-content: center;
+        margin: 0 auto;
+        padding: 2px 5px
+    }
+}
+
+.pageTunerWrapper__item a span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px
+}
+
+@media (max-width:768px) {
+    .pageTunerWrapper__item a span {
+        display: none
+    }
+}
+
+@media (hover:hover) and (pointer:fine) {
+    .pageTunerWrapper__item a:hover {
+        opacity: .7
+    }
+}
+
+.pageTunerWrapper__item:not(:first-child) {
+    border-left: 1px solid hsla(0, 0%, 100%, .2)
+}
+
+@media (max-width:768px) {
+    .pageTunerWrapper {
+        padding: 0
+    }
+}
+
+.header {
+    padding: 9px 0
+}
+
+.header__nav {
+    display: grid;
+    grid-template-areas: "1fr logo lang";
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+@media (max-width:500px) {
+    .header__nav {
+        grid-template-areas: "logo lang";
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+.header__logo {
+    align-items: center;
+    display: flex;
+    grid-area: logo;
+    justify-content: center
+}
+
+@media (max-width:500px) {
+    .header__logo {
+        display: flex;
+        justify-content: inherit;
+        padding: 0 20px
+    }
+}
+
+.header__logo img {
+    max-width: inherit !important
+}
+
+.header__lang {
+    display: flex;
+    grid-area: lang;
+    justify-content: end;
+    position: relative
+}
+
+.header__lang-btn {
+    align-items: center;
+    background: inherit;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    gap: 4px;
+    line-height: 20px;
+    padding: 8px 20px;
+    text-transform: uppercase
+}
+
+.header__lang-btn_rotate:after {
+    transform: rotate(180deg)
+}
+
+.header__lang-btn:after {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m7 11 5-8H2l5 8Z' fill='%23000' stroke='%23000'/%3E%3C/svg%3E") no-repeat 50%;
+    content: "";
+    height: 14px;
+    transition: all .2s ease-in;
+    width: 14px
+}
+
+.header__lang-menu {
+    background: #fff;
+    box-shadow: -1px 0 2px 0 rgba(0, 0, 0, .28);
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    z-index: 999999
+}
+
+.header__lang-menu_active {
+    display: grid;
+    gap: .5rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    min-width: 280px;
+    padding: 10px 20px
+}
+
+.header__lang-menu li {
+    font-size: .8em;
+    line-height: 1.3em;
+    text-align: center
+}
+
+.header__lang-menu a {
+    color: #242da9;
+    text-decoration: none
+}
+
+.header__lang-menu a:hover {
+    color: #8e55d8
+}
+
+.header__lang-menu span {
+    color: #000
+}
+
+body:dir(rtl) .header__lang-menu {
+    left: 5px;
+    right: inherit
+}
